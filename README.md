@@ -1,12 +1,10 @@
-Flashcards App Project for Thinkful Bootcamp
+Flashcards is an App Project made by React during the frontend module of Thinkful Bootcamp.
 
-Create a web app with the ability to create decks of cards.
+The app is mobile friendly and responsive. 
+Being user based means that everyone can study on this app plus anyone can create, edit, and delete decks and cards via forms.
 
-A user should have the ability to create new decks or edit existing ones via a form. Each deck should contain cards.
-Each card should have a front and back side that can be edited via a form to either add new cards or edit an existing one. 
-Each card should have a flip button to display the text on the front/back of the card. 
-If on the back of the card, a next button should be displayed to cycle to the next card in the deck. 
-If a user clicks "Next" on the last card to be deleted, a prompt should show up asking whether the user wants to restart studying the deck, 
-or to return to the homepage to pick a new deck to study.
+Each deck must have at least 2 cards; each card - a front and a back.
+Once through a deck user will have the option to start over or route back to the home page.
 
-Decks and cards should be able to be deleted.
+If user arrives on an unknown route a 404 error will appear and it is a treat.
+
